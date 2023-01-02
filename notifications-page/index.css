@@ -1,0 +1,382 @@
+@font-face{
+    font-family: Plus Jakarta Sans;
+    src: url(./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: hsl(210, 60%, 98%);
+}
+
+.container{
+    background-color: white;
+    color: hsl(219, 12%, 42%);
+    margin: 40px 230px;
+    padding: 20px;
+    font-family: Plus Jakarta Sans;
+    line-height: 30px;
+    border-radius: 7px;
+}
+
+.notbar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.not{
+    font-weight: bold
+}
+
+.not1{
+    font-size: 20px;
+    color: black;
+}
+
+.not2{
+    background-color: hsl(219, 92%, 23%);
+    color: white;
+    padding: .4px 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.mark{
+    
+    color: rgb(156, 152, 152);
+}
+
+.mark:hover{
+    color: hsl(225, 70%, 26%);
+    font-weight: bold;
+}
+
+.notify1{
+    background-color: hsl(211, 68%, 94%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    line-height: 22px;
+}
+
+.notify2{
+    background-color: hsl(211, 68%, 94%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    line-height: 22px;
+}
+
+.notify3{
+    background-color: hsl(211, 68%, 94%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    line-height: 22px;
+}
+
+.notify4{
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 17px;
+    display: flex;
+    line-height: 22px;
+}
+
+.notify5{
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 17px;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 22px;
+}
+
+.img{
+    background: url(./assets/images/image-chess.webp) no-repeat;
+    background-size: contain;
+    height: 5.5vh;
+    width: 5.5%;
+    margin-top: .5vh; 
+}
+
+.img:hover{
+    cursor: pointer;
+    padding: 2px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.notify6{
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 17px;
+    display: flex;
+    line-height: 22px;
+}
+
+.notify7{
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    line-height: 22px;
+}
+
+
+
+.image1{
+    background: url(./assets/images/avatar-mark-webber.webp) no-repeat;
+    background-size: contain;
+    flex: 0.08;
+    margin-top: .5vh;
+}
+
+.notify1-1{
+    flex: 0.92;
+}
+
+.image2{
+    background: url(./assets/images/avatar-angela-gray.webp) no-repeat;
+    background-size: contain;
+    flex: 0.08;
+    margin-top: .5vh;
+}
+
+.notify2-1{
+    flex: 0.92;
+}
+
+.image3{
+    background: url(./assets/images/avatar-jacob-thompson.webp) no-repeat;
+    background-size: contain;
+    flex: 0.08;
+    margin-top: .5vh;
+}
+
+.notify3-1{
+    flex: 0.92;
+}
+
+.image4{
+    background: url(./assets/images/avatar-rizky-hasanuddin.webp) no-repeat;
+    background-size: contain;
+    flex: 0.05;
+    margin-top: .5vh;
+    width: 8vw;
+    margin-right: 4vh;
+}
+
+.notify4-1{
+    flex: 0.92;
+}
+
+.image5{
+    background: url(./assets/images/avatar-kimberly-smith.webp) no-repeat;
+    background-size: contain;
+    flex: 0.08;
+    margin-top: .5vh;
+}
+
+.notify5-1{
+    flex: 0.92;
+}
+
+.image6{
+    background: url(./assets/images/avatar-nathan-peterson.webp) no-repeat;
+    background-size: contain;
+    flex: 0.08;
+    margin-top: .5vh;
+}
+
+.notify6-1{
+    flex: 0.92;
+}
+
+.image7{
+    background: url(./assets/images/avatar-anna-kim.webp) no-repeat;
+    background-size: contain;
+    flex: 0.08;
+    margin-top: .5vh;
+}
+
+.notify7-1{
+    flex: 0.92;
+}
+
+.name{
+    color: black;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.name:hover{
+    color: hsl(225, 70%, 26%);
+}
+
+.time{
+    color: hsl(208, 9%, 72%);
+}
+
+.p1{
+    display: inline-block;
+    color: hsl(219, 12%, 42%);
+    font-weight: bold;
+}
+
+.p1:hover{
+    color: hsl(225, 70%, 26%);
+}
+
+.p2{
+    display: inline-block;
+    background-color: hsl(7, 91%, 59%);
+    border-radius: 30px;
+    padding: 4px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.p3{
+    display: inline-block;
+    font-weight: bold;
+    color: hsl(225, 70%, 26%);
+    margin-left: 5px;
+}
+
+.mess{
+    border-top: 3px solid hsl(211, 68%, 94%);
+    border-left: 3px solid hsl(211, 68%, 94%);
+    border-right: 3px solid hsl(211, 68%, 94%);
+    border-bottom: 1px solid hsl(211, 68%, 94%);
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.mess:hover{
+    background-color: hsl(211, 68%, 94%);
+    cursor: pointer;
+}
+
+@media(max-width:1124px){
+    .container{
+        margin: 40px 100px;
+        padding: 20px;
+        line-height: 30px;
+        border-radius: 7px;
+    }
+
+    .image1{
+        flex: 0.08;
+        margin-top: .5vh;
+        margin-right: 3vh;
+    }
+    
+    .image2{
+        flex: 0.08;
+        margin-top: .5vh;
+        margin-right: 3vh;
+    }
+    
+    .image3{
+        flex: 0.08;
+        margin-top: .5vh;
+        margin-right: 3vh;
+    }
+    
+    .image4{
+        flex: 0.08;
+        margin-top: .5vh;
+        margin-right: 3vh;
+    }
+    
+    .image5{
+        flex: 0.08;
+        margin-top: .5vh;
+        margin-right: 3vh;
+    }
+    
+    .image6{
+        flex: 0.08;
+        margin-top: .5vh;
+        margin-right: 3vh;
+    }
+    
+    .image7{
+        flex: 0.08;
+        margin-top: .5vh;
+        margin-right: 3vh;
+    }
+}
+
+@media(max-width:720px){
+    .container{
+        margin: 0px 0px;
+        padding: 20px;
+        line-height: 30px;
+        border-radius: 7px;
+    }
+
+    .image1{
+        flex: 0.08;
+        margin-top: .5vh;
+        margin-right: 3vh;
+    }
+    
+    .image2{
+        flex: 0.08;
+        margin-top: .5vh;
+        margin-right: 3vh;
+    }
+    
+    .image3{
+        flex: 0.08;
+        margin-top: .5vh;
+        margin-right: 3vh;
+    }
+    
+    .image4{
+        flex: 0.08;
+        margin-top: .5vh;
+        margin-right: 3vh;
+    }
+    
+    .image5{
+        flex: 0.08;
+        margin-top: .5vh;
+        margin-right: 3vh;
+    }
+    
+    .image6{
+        flex: 0.08;
+        margin-top: .5vh;
+        margin-right: 3vh;
+    }
+    
+    .image7{
+        flex: 0.08;
+        margin-top: .5vh;
+        margin-right: 3vh;
+    }
+}
+
+
+
+/*
+white: hsl(0, 0%, 100%);
+Very light grayish blue: hsl(210, 60%, 98%)
+- Light grayish blue 1: hsl(211, 68%, 94%)
+- Light grayish blue 2: hsl(205, 33%, 90%)
+- Grayish blue: hsl(219, 14%, 63%)
+- Dark grayish blue: hsl(219, 12%, 42%)
+- Very dark blue: hsl(224, 21%, 14%)
+*/
