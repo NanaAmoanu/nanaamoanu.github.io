@@ -1,0 +1,198 @@
+@font-face {
+    font-family: Overpass;
+    src: url(./font/Overpass-VariableFont_wght.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+body{
+    font-family: Overpass;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 20vh;
+}
+
+.container{
+    border-radius: 3vh;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;
+    padding: 4vh;
+    width: 22vw;
+    
+}
+
+.logo{
+    background-color: hsl(215, 16%, 24%);
+    padding: 1.5vh;
+    border-radius: 5vh;
+    margin-bottom: 3vh;
+}
+
+.head{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 1vh;
+}
+
+.text{
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 3vh;
+}
+
+.rate{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+
+.one{
+    background-color: hsl(215, 16%, 24%);
+    padding: 1.5vh 1.3vw 1.5vh 1.3vw;
+    border-radius: 5vh;
+    cursor: pointer;
+}
+
+.one:hover{
+    background-color: hsl(217, 12%, 63%);
+}
+
+.two{
+    background-color: hsl(215, 16%, 24%);
+    padding: 1.5vh 1.2vw 1.5vh 1.2vw;
+    border-radius: 5vh;
+    cursor: pointer;
+}
+
+.two:hover{
+    background-color: hsl(217, 12%, 63%);
+}
+
+.three{
+    background-color: hsl(215, 16%, 24%);
+    padding: 1.5vh 1.2vw 1.5vh 1.2vw;
+    border-radius: 5vh;
+    cursor: pointer;
+}
+
+.three:hover{
+    background-color: hsl(217, 12%, 63%);
+}
+
+.four{
+    background-color: hsl(215, 16%, 24%);
+    padding: 1.5vh 1.2vw 1.5vh 1.2vw;
+    border-radius: 5vh;
+    cursor: pointer;
+}
+
+.four:hover{
+    background-color: hsl(217, 12%, 63%);
+}
+
+.five{
+    background-color: hsl(215, 16%, 24%);
+    padding: 1.5vh 1.2vw 1.5vh 1.2vw;
+    border-radius: 5vh;
+    cursor: pointer;
+}
+
+.five:hover{
+    background-color: hsl(217, 12%, 63%);
+}
+
+.btn{
+    background-color: hsl(25, 97%, 53%);
+    padding: 1.5vh 9.3vw;
+    border-radius: 5vh;
+    color: white;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+@media (max-width:1024px){
+    body{
+        margin-top: 25vh;
+    }
+    
+    .container{
+        width: 50vw;
+    }
+
+    .one{
+        padding: 10px 17px;
+    }
+
+    .two{
+        padding: 10px 15px;
+    }
+
+    .three{
+        padding: 10px 15px;
+    }
+
+    .four{
+        padding: 10px 15px;
+    }
+
+    .five{
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width:720px){
+    body{
+        margin-top: 25vh;
+    }
+    
+    .container{
+        width: 50vw;
+    }
+
+    .one{
+        padding: 10px 17px;
+    }
+
+    .two{
+        padding: 10px 15px;
+    }
+
+    .three{
+        padding: 10px 15px;
+    }
+
+    .four{
+        padding: 10px 15px;
+    }
+
+    .five{
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width:375px){
+    body{
+        margin-top: 20vh;
+    }
+
+    .container{
+        width: 70vw;
+    }
+}

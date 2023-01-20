@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Overpass;
+    src: url(./font/Overpass-VariableFont_wght.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+body{
+    font-family: Overpass;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 20vh;
+}
+
+.container{
+    border-radius: 3vh;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+    width: 25vw;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.div1{
+    margin-bottom: 2vh;
+}
+
+.div2{
+    margin-bottom: 2vh;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(215, 16%, 24%);
+    border-radius: 15px;
+    padding: 1vh 1.5vw;
+    width: 13vw;
+    margin-left: 4.5vw;
+}
+
+.div3{
+    margin-bottom: 2vh;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.div4{
+    margin-bottom: 2vh;
+    color: hsl(217, 12%, 63%);
+}
+
+
+@media (max-width:1024px){
+    body{
+        margin-top: 25vh;
+    }
+    
+    .container{
+        width: 50vw;
+    }
+
+    .div2{
+        width: 45vw;
+        margin-left: 1.5vw;
+    }
+}
+
+@media (max-width:720px){
+    body{
+        margin-top: 25vh;
+    }
+    
+    .container{
+        width: 50vw;
+        padding: 3vh;
+        
+    }
+
+    .div2{
+        width: 40vw;
+        margin-left: 4vw;
+    }
+ 
+}
+
+@media (max-width:375px){
+    body{
+        margin-top: 20vh;
+    }
+    
+    .container{
+        width: 50vw;
+        
+    }
+
+    .div2{
+        width: 45vw;
+        margin-left: 1.5vw;
+    }
+ 
+}
