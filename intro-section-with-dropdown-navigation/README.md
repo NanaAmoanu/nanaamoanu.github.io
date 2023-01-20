@@ -35,6 +35,7 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: [https://github.com/NanaAmoanu/nanaamoanu.github.io]
 - Live Site URL: https://nanaamoanu.github.io/intro-section-with-dropdown-navigation/
 
 ## My process
@@ -80,3 +81,4 @@ I had to learn how to use the css position property to make certain features wor
 - Caleb Mensah Afful (Nana Amoanu)
 - Frontend Mentor - [@NanaAmoanu](https://www.frontendmentor.io/profile/NanaAmoanu)
 - Twitter - [@_nana_amoanu](https://www.twitter.com/_nana_amoanu)
+- Github - [@NanaAmoanu](https://www.github.com/NanaAmoanu)

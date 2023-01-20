@@ -37,6 +37,7 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: [https://github.com/NanaAmoanu/nanaamoanu.github.io]
 - Live Site URL: https://nanaamoanu.github.io/notifications-page/
 
 ## My process
@@ -75,3 +76,4 @@ I would like to do more with flex box and know the various options available. Ad
 - Caleb Mensah Afful (Nana Amoanu)
 - Frontend Mentor - [@NanaAmoanu](https://www.frontendmentor.io/profile/NanaAmoanu)
 - Twitter - [@_nana_amoanu](https://www.twitter.com/_nana_amoanu)
+- Github - [@NanaAmoanu](https://www.github.com/NanaAmoanu)

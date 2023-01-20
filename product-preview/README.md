@@ -9,6 +9,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#Links)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
@@ -32,6 +33,9 @@ Users should be able to:
 ![](./screenshot/desktop%20view.PNG)
 ![](./screenshot/mobile%20view.PNG)
 
+### Links
+- Solution URL: [https://github.com/NanaAmoanu/nanaamoanu.github.io]
+- Live Site URL: [https://nanaamoanu.github.io/product-preview/]
 
 ### Built with
 
@@ -63,6 +67,7 @@ Users should be able to:
 - Caleb Mensah Afful (Nana Amoanu)
 - Frontend Mentor - [@NanaAmoanu](https://www.frontendmentor.io/profile/NanaAmoanu)
 - Twitter - [@_nana_amoanu](https://www.twitter.com/_nana_amoanu)
+- Github - [@NanaAmoanu](https://www.github.com/NanaAmoanu)
 
 ## Acknowledgments
 
