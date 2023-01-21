@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Outfit;
+    src: url(./font/Outfit-VariableFont_wght.ttf);
+}
+
+body{
+    font-family: Outfit;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 10vh;
+}
+
+.container1{
+    background-color: hsl(217, 55%, 13%);
+    border-radius: 30px;
+    padding: 20px 30px 70px 30px;
+    width: 25%;
+}
+
+.container1-1{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 20px 5px 10px hsl(217, 54%, 11%);
+}
+
+.inner-div-up-image{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 25vh;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.div1{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.div1:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.div2{
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.div3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.div3-1{
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.div3-2{
+    color: hsl(215, 51%, 70%);
+}
+
+.div3-1-image{
+    height: 60%;
+}
+
+.div3-2-image{
+    height: 60%;
+}
+
+hr{
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.div4{
+    display: flex;
+    margin-top: 15px;
+}
+
+.div4-image{
+    background-image: url(./images/image-avatar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    margin-right: 13px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.div4-text{
+    margin-top: 3px;
+    color: hsl(215, 51%, 70%)
+}
+
+span{
+    color: white;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+span:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+@media(max-width:1024px){
+    body{
+        margin-top: 10vh;
+    }
+    
+    .container1{
+        width: 50%;
+    }
+}
+
+@media(max-width:720px){
+    body{
+        margin-top: 15vh;
+    }
+    
+    .container1{
+        width: 80%;
+    }
+}
+
+
+@media(max-width:375px){
+    body{
+        margin-top: 7vh;
+    }
+    
+    .container1{
+        width: 100%;
+    }
+
+    span{
+        display: block;
+        margin-left: -4.5px;
+    }
+}
