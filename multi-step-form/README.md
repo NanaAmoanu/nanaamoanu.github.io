@@ -60,9 +60,11 @@ Users should be able to:
 This has been an interesting project for me. It gave me the avenue to apply several things I have learnt in front end web development so far. Making use of local storage, accessing specific css attributes and properties and using them to make decisions, using user input in processing information etc.
 
 ```js
+
 localStorage.setItem("variable to store data in",assigned_variable);
 window.location.href="webpage to send the stored data";
 localStorage.getItem("name of variable data was stored in in previous webpage");
+
 ```
 ## Author
 
