@@ -1,0 +1,232 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(./fonts/Ubuntu-Regular.ttf);
+}
+
+body{
+    font-family: Ubuntu;
+    background-color: hsl(228, 100%, 84%);
+}
+
+.container{
+    display: flex;
+    margin: 1.5cm 5cm;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.inner-div-left{
+    background: url(./images/bg-sidebar-desktop.svg) no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    padding: 1cm 0.7cm;
+}
+
+/*.inner-div-right{
+    display: flex;
+    margin: 1cm 1.5cm 0.5cm 1.5cm;
+    flex-direction: column;
+    flex: 0.7;
+}*/
+
+form{
+    display: flex;
+    margin: 1cm 1.5cm 0.5cm 1.5cm;
+    flex-direction: column;
+    flex: 0.7;
+}
+
+h1{
+    color: hsl(213, 96%, 18%);
+    margin-bottom: 10px;
+}
+
+.div1{
+    margin-bottom: 30px;
+    color: hsl(231, 11%, 63%);
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(213, 96%, 18%);
+    margin-bottom: 5px;
+    font-weight: 550;
+}
+
+.error1{
+    color: hsl(354, 84%, 57%);
+    display: none;
+}
+
+.error2{
+    color: hsl(354, 84%, 57%);
+    display: none;
+}
+
+.error3{
+    color: hsl(354, 84%, 57%);
+    display: none;
+}
+
+.input1{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid hsl(229, 24%, 87%);
+}
+
+.input2{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid hsl(229, 24%, 87%);
+}
+
+.input3{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid hsl(229, 24%, 87%);
+}
+
+.input::placeholder{
+    color: hsl(231, 11%, 63%);
+}
+
+.btn1{
+    background-color: hsl(213, 96%, 18%);
+    color: white;
+    padding: 10px 5px;
+    border-radius: 7px;
+    border: none;
+    margin: 2cm 0 0 10cm;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: hsl(243, 100%, 62%);
+}
+
+.num1{
+    border-radius: 30px;
+    padding: 7px 12px;
+    background-color: hsl(206, 94%, 87%);
+    color: hsl(213, 96%, 18%);
+    text-align: center;
+    border: 1px solid hsl(228, 100%, 84%);
+}
+
+.num2{
+    border-radius: 50px;
+    padding: 7px 12px;
+    color: white;
+    text-align: center;
+    border: 1px solid hsl(229, 24%, 87%);
+}
+
+.num3{
+    border-radius: 50px;
+    padding: 7px 12px;
+    color: white;
+    text-align: center;
+    border: 1px solid hsl(229, 24%, 87%);
+}
+
+.num4{
+    border-radius: 50px;
+    padding: 7px 12px;
+    color: white;
+    text-align: center;
+    border: 1px solid hsl(229, 24%, 87%);
+}
+
+.div{
+    display: flex;
+    
+    margin-bottom: 30px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.steps{
+    color: hsl(229, 24%, 87%);
+}
+
+@media(max-width:720px){
+    body{
+        background-color: white;
+        height: 100%;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 0cm 0cm;
+        padding: 0px;
+        background-color: hsl(206, 94%, 87%);
+        height: 90%;
+        border-radius: 0px;
+    }
+    
+    .inner-div-left{
+        background-image: url(./images/bg-sidebar-mobile.svg);
+        background-size: cover;
+        position:static;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 1cm 4.5cm;
+    }
+    
+    .inner-div-right{
+        background-color: white;
+        display: flex;
+        margin: -1cm .5cm 1cm .5cm;
+        flex-direction: column;
+        padding: 1cm .7cm;
+        border-radius: 10px;
+    }
+
+    .text{
+        display: none;
+    }
+
+    .btn1{
+        padding: 10px 15px;
+        margin: 2cm 0 0 5cm;
+    }
+
+    .num1{
+        margin-right: 10px;
+    }
+    
+    .num2{
+        margin-right: 10px;
+    }
+    
+    .num3{
+        margin-right: 10px;
+    }
+
+}
+

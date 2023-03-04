@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="index4.css">
+
+  <script src="./javascript/jquery.js" type="text/javascript"></script>
+  <script src="./javascript/jquery-ui/jquery-ui.js"></script>
+  <script src="./index4.js"></script>
+  <link rel="stylesheet" href="./javascript/jquery-ui/jquery-ui.css">
+  <link rel="stylesheet" href="./javascript/jquery-ui/jquery-ui.structure.css">
+  <link rel="stylesheet" href="./javascript/jquery-ui/jquery-ui.theme.css">
+  
+  <title>Frontend Mentor | Multi-step form</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="inner-div-left">
+            <div class="div">
+                <span class="num1">
+                    1
+                </span>
+  
+                <span class="text">
+                    <span class="steps">Step 1</span>
+                    <span>Your info</span>
+                </span>
+            </div>
+  
+            <div class="div">
+                <span class="num2">
+                    2
+                </span>
+  
+                <span class="text">
+                    <span class="steps">Step 2</span>
+                    <span>Select plan</span>
+                </span>
+          
+            </div>
+  
+            <div class="div">
+                <span class="num3">
+                    3
+                </span>
+  
+                <span class="text">
+                    <span class="steps">Step 3</span>
+                    <span>Add-ons</span>
+                </span>
+          
+            </div>
+   
+            <div class="div">
+                <span class="num4">
+                    4
+                </span>
+  
+                <span class="text">
+                    <span class="steps">Step 4</span>
+                    <span>Summary</span>
+                </span>
+            </div>
+   
+        
+        </div>
+ 
+        <form action="index5.html" onsubmit="return validate()" class="inner-div-right">
+            <h1>
+                Finishing up
+            </h1>
+
+            <div class="div1">
+                Double-check everything looks OK before confirming.
+            </div>
+
+            <div class="selected">
+                <div class="plan">
+                    <div class="plan1">
+                        <h4>
+                            Arcade (<span class="month">Monthly</span><span class="year">Yearly</span> )
+                        </h4>
+                        <h5 class="month">$9/mo</h5>
+                        <h5 class="year">$90/yr</h5>
+                    </div>
+                    <div class="plan2">
+                        <h4>
+                            Advanced (<span class="month">Monthly</span><span class="year">Yearly</span> )
+                        </h4>
+                        <h5 class="month">$12/mo</h5>
+                        <h5 class="year">$120/yr</h5>
+                    </div>
+                    <div class="plan3">
+                        <h4>
+                            Pro (<span class="month">Monthly</span><span class="year">Yearly</span> )
+                        </h4>
+                        <h5 class="month">$15/mo</h5>
+                        <h5 class="year">$150/yr</h5>  
+                    </div>
+                    <a href="index2.html" class="change">Change</a>
+                </div>
+
+                <hr>
+
+                <div class="add-on">
+                    <div class="service">
+                        Online Service
+                        <h5 class="month">+$1/mo</h5>
+                        <h5 class="year">+$10/yr</h5>
+                    </div>
+                    <div class="storage">
+                        Larger Storage
+                        <h5 class="month">+$2/mo</h5>
+                        <h5 class="year">+$20/yr</h5>
+                    </div>
+                    <div class="profile">
+                        Customizable Profile
+                        <h5 class="month">+$2/mo</h5>
+                        <h5 class="year">+$20/yr</h5>
+                    </div>
+                </div>
+
+            </div>
+            <div class="total">
+                <div>
+                    Total (per <span class="month">month</span><span class="year">year</span>)
+                </div>
+                <div class="amount">
+                    $<span class="sum">120</span>/<span class="month">mo</span><span class="year">yr</span> 
+                </div>
+            </div>
+
+            <div class="div3">
+                <a href="./index3.html" class="span1">Go Back</a>  
+                <button class="btn1">Confirm</button>
+            </div>
+        </form>
+    </div>
+  
+</body>
+</html>
